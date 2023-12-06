@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">VizeProje</string>
+    <string name="title_activity_convertor">ConvertorActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string-array name="Decimal">
+        <item>Birim Seçiniz</item>
+        <item>İkilik</item>
+        <item>Sekizlik</item>
+        <item>On Altılık</item>
+    </string-array>
+    <string-array name="Byte">
+        <item>Birim Seçiniz</item>
+        <item>Kilo byte</item>
+        <item>Byte</item>
+        <item>Kibi byte</item>
+        <item>Bit</item>
+    </string-array>
+</resources>

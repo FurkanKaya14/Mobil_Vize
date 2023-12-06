@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".RandomActivity">
+<TextView
+    android:id="@+id/random_baslik"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:text="Random"
+    android:textSize="48sp">
+</TextView>
+    <LinearLayout
+        android:id="@+id/lineer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+    <EditText
+        android:id="@+id/random_input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="İstenen adet"
+        android:inputType="number">
+    </EditText>
+    <EditText
+        android:id="@+id/random_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="Min Değer"
+        android:inputType="number">
+    </EditText>
+        <EditText
+            android:id="@+id/random_input3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="Max Değer"
+            android:inputType="number">
+        </EditText>
+    <Button
+        android:id="@+id/random_buton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oluştur">
+    </Button>
+</LinearLayout>
+    <ScrollView
+        android:id="@+id/random_kaydir"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/lineer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
